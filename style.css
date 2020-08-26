@@ -1,0 +1,70 @@
+.logo {
+	max-width: 100%;
+	height:auto;
+	height: 50px;
+	margin: 20px;
+	border-radius: 0%;
+}
+
+.titre {	
+	background-color: #f37272;
+  	color: #ffffff;
+  	margin: 0px;
+ 	text-align: center;
+  	height: 30px;
+  	border: 10px dashed #f37272;
+}
+
+
+.soustitre{
+  	background-color: #f37272;
+  	color: #ffffff;
+  	margin: 0px;
+  	text-align: center;
+  	height: 30px;
+  	border: 10px dashed #f37272;
+}
+
+.staff {
+	display: flex;
+	height: auto;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.titre-staff {
+	text-align: center;
+	font-size:200%;
+	color: #f37272;
+}
+ 
+img {
+	border-radius: 100%;
+	height: auto;
+}
+
+.étudiants {
+	display: flex;
+	height: auto;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.titre-student {
+	text-align: center;
+	font-size: 200%;
+	color: #f37272;
+}
+
+.prénom {
+	text-align: center;
+}
+
+.logolinkedin {
+	height: 20px;
+	border-radius: 0%;
+	margin-left: 10em;
+}
+

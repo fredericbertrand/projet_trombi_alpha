@@ -27,11 +27,17 @@ header h2 {
 .social{
     height: 25px;
     width: 25px;
-    padding-left: 125px;    
+    padding-left: 0px;
+    padding-bottom: 40px;
+    margin : 100 px;    
 }
+
+
 img{
     height: 280px;
     width: 280px;
+    padding-left: 10px;  /* a ajuster pour eloigner les photos*/
+    padding-right: 10px; /* a ajuster pour eloigner les photos*/
 }
 .staff{
     display: flex;

@@ -49,13 +49,14 @@ img{
     height: auto;
     flex-flow: row wrap;
     align-items: center;
-    justify-content: space-around;    
+    justify-content: space-around;  
 }
 .team{
     color: #F37272;
     font-size: 30px;
     height: 50px;
     font-weight: bold;
+    text-align: center;
 }
 .étudiants{
     display: flex;

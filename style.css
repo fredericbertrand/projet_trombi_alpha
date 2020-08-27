@@ -147,6 +147,7 @@ input:focus, textarea:focus {
 
             textarea {
             /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+            /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
             vertical-align: top;
 
             /* Pour donner assez de place pour écrire du texte */

@@ -66,7 +66,7 @@ p{
     background-color: #F37272;
     color: white;
     margin: 0px;
-    height: 50px;
+    height: 30px;
     text-indent: 15px;
     font-weight: bold;
     border: 5px dashed #F37272;
@@ -141,8 +141,7 @@ input, textarea {
 
     /* Pour que tous les champs texte aient la même dimension */
     width: 450px;
-   
-
+    
     /* Pour harmoniser le look & feel des bordures des champs texte */
     border: 3px solid #999;
 }
@@ -157,7 +156,7 @@ input:focus, textarea:focus {
             vertical-align: top;
 
             /* Pour donner assez de place pour écrire du texte */
-            height: 9em;
+            height: 7em;
             }
 
             .button {
@@ -168,9 +167,9 @@ input:focus, textarea:focus {
             button {
             /* Cette marge supplémentaire représente grosso modo le même espace que celui
                 entre les étiquettes et les champs texte */
-            width: 150px;
-            height: 55px;
-            font-size: 20px;
+            width: 120px;
+            height: 45px;
+            font-size: 15px;
             margin-left: .5em;
             background-color: rgb(214, 212, 212);
             color: #F37272;

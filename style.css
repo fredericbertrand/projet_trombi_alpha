@@ -159,32 +159,36 @@ input:focus, textarea:focus {
     /* Pour souligner légèrement les éléments actifs */
     border-color: #000;
 }
+textarea 
+{
+/* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+/* Pour aligner les champs texte multi‑ligne avec leur étiquette */
+vertical-align: top;
 
-            textarea {
-            /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
-            /* Pour aligner les champs texte multi‑ligne avec leur étiquette */
-            vertical-align: top;
+/* Pour donner assez de place pour écrire du texte */
+height: 9em;
+}
 
-            /* Pour donner assez de place pour écrire du texte */
-            height: 9em;
-            }
+.button 
+{
+/* Pour placer le bouton à la même position que les champs texte */
+padding-left: 90px; /* même taille que les étiquettes */
+text-align: center;
+}
 
-            .button {
-            /* Pour placer le bouton à la même position que les champs texte */
-            padding-left: 90px; /* même taille que les étiquettes */
-            }
+button 
+{
+/* Cette marge supplémentaire représente grosso modo le même espace que celui
+    entre les étiquettes et les champs texte */
+width: 150px;
+height: 55px;
+font-size: 20px;
+margin-left: .5em;
+background-color: rgb(214, 212, 212);
+color: #F37272;
+border-color: white;
 
-            button {
-            /* Cette marge supplémentaire représente grosso modo le même espace que celui
-                entre les étiquettes et les champs texte */
-            width: 150px;
-            height: 55px;
-            font-size: 20px;
-            margin-left: .5em;
-            background-color: rgb(214, 212, 212);
-            color: #F37272;
-            border-color: white;
-            }
+}
 footer{
     background-color: #F37272;
     display: flex;

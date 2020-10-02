@@ -3,6 +3,11 @@
     padding: 0;
     margin: 0;
 }
+
+.old{
+    color: beige;
+}
+
 .log{
     height: 45px;
     width: 115px;
